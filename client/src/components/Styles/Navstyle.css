@@ -36,7 +36,7 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  height: 100vh;
+  min-height: 100vh;
   background : linear-gradient(#001890,#000000dc);
   animation: animate 10s linear infinite;
   width: 16rem;

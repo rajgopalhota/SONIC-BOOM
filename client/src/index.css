@@ -1,6 +1,20 @@
-body {
+*,
+*::before,
+*::after {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background: url(./Walls/bg4.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /* background-image: linear-gradient(90deg,#b617ff9c,#e100d6dc); */
+  min-height: 100vh;
+  display: flex;
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

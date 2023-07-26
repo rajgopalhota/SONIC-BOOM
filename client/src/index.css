@@ -9,9 +9,9 @@
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  background: url(./Walls/bg4.jpg) no-repeat center center fixed;
-  background-size: cover;
-  /* background-image: linear-gradient(90deg,#b617ff9c,#e100d6dc); */
+  /* background: url(./Walls/bg4.jpg) no-repeat center center fixed;
+  background-size: cover; */
+  background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
   min-height: 100vh;
   display: flex;
   position: relative;

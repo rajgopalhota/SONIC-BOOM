@@ -36,26 +36,13 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  background : linear-gradient(#001890,#000000dc);
-  animation: animate 10s linear infinite;
+  background-image: linear-gradient(to top, #350411 0%, #00055e 100%);
   width: 16rem;
   padding: 1.8rem 0.85rem;
   color: #fff;
   display: flex;
   flex-direction: column;
   transition: width 0.5s ease-in-out;
-}
-
-@keyframes animate{
-    0%{
-        filter: hue-rotate(0deg);
-    }
-    50%{
-        filter: hue-rotate(180deg);
-    }
-    100%{
-        filter: hue-rotate(0deg);
-    }
 }
 
 nav::before {
